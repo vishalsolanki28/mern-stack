@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    border: 0.5px solid black;
+    width: 30%;
+    height: 30%;
+    padding: 5%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.8cm;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+.user button:hover {
+    transform: scale(1.1);
+}
+
+.user button {
+    width: 4cm;
+    height: 0.6cm;
+    border-radius: 0.9cm;
+    transition: 0.28s ease;
+    cursor: pointer;
+}
+
+.user button a {
+    text-decoration: none;
+    color: black;
+}
